@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>夏雨个人空间</title>
+		<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+		<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />	
+		<link rel="stylesheet" href="css/swipebox.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="keywords" content="" />
+		<script src="http://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/numscroller-1.0.js"></script>
+		<link href='http://fonts.googleapis.com/css?family=Voltaire' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800italic,800,700italic,700,600italic,600,400italic,300italic,300' rel='stylesheet' type='text/css'>
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+ 		<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+			});
+		});
+		</script>
+		<script src="js/responsiveslides.min.js"></script>
+ 		<script>
+    		$(function () {
+      			$("#slider").responsiveSlides({
+      				auto: true,
+      				nav: true,
+      				speed: 500,
+        			namespace: "callbacks",
+        			pager: true,
+     		 	});
+    		});
+  		</script>
+		<script src="js/jquery.swipebox.min.js"></script> 
+		<script type="text/javascript">
+			jQuery(function($) {
+				$(".swipebox").swipebox();
+			});
+		</script>
+	</head>
+	<body>
+		<div class="banner">
+			<div class="container">
+				<div class="navigation wow fadeInLeft animated" data-wow-delay=".5s">
+					<nav class="navbar navbar-default">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+						</div>
+						<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+							<ul class="nav navbar-nav navbar-right link-effect">
+								<li><a href="#information" class="scroll">Information</a></li>
+								<li><a href="#diary" class="scroll">Diary</a></li>
+								<li><a href="#photo" class="scroll">Photo album</a></li>
+								<li><a href="#dormitory" class="scroll" >Dormitory</a></li>
+								<li><a href="#news" class="scroll" >News</a></li>
+								<li><a href="#contact" class="scroll" >Contact</a></li>
+							</ul>
+						</div>
+					</nav>
+				</div>
+				<div class="banner-info">
+					<div class="logo wow fadeInRight animated" data-wow-delay=".5s">
+						<h3><a href="#">P</a></h3>
+					</div>
+					<h1 class="wow fadeInRight animated" data-wow-delay=".5s">夏雨个人空间</h1>
+					<p class="wow fadeInRight animated" data-wow-delay=".5s">你若成长，事事可成长。不是世界选择了你，是你选择了这个世界。既然无处可躲，不如傻乐。既然无处可逃，不如喜悦。既然没有净土，不如静心。既然没有如愿，不如释然。</p>
+				</div>
+			</div>
+		</div>
+		<div class="content">
+			<div class="about-w3" id="information">
+				<div class="container">
+					<h2 class="tittle"><span>[</span> Basic information <span>]</span></h2>
+					<p class="about-text">
+						姓名：夏雨&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;性别：女<br>
+						&nbsp;&nbsp;年龄：21&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;职业：学生<br>
+						班级：计科2班<br>学号：1306410201
+					</p>
+					<div class="about-grids">
+						<div class="col-md-4 about-grid">
+							<div class="about-top">
+								<h4><i class="glyphicon glyphicon-heart-empty" aria-hidden="true"></i>爱好</h4>
+								<span></span>
+							</div>
+							<p>
+								钓鱼(PS:但技术一般般,特别喜欢盯着浮漂等待的感觉)<br>
+								乒乓球、羽毛球(PS:嘻嘻，只有这两个算能拿得出手了)<br>
+								玩游戏(PS:呃。。。偶尔玩玩,其实都属于菜鸟级别)
+							</p>
+						</div>
+						<div class="col-md-4 about-grid">
+							<div class="about-top">
+								<h4><i class="glyphicon glyphicon-globe" aria-hidden="true"></i>特长</h4>
+								<span></span>
+							</div>
+							<p>
+								呃。。。特长的话，刚刚的爱好都不算，其实都是略懂略懂，没什么特长(PS:心态好算特长吗？!)
+							</p>
+						</div>
+						<div class="col-md-4 about-grid">
+							<div class="about-top">
+								<h4><i class="glyphicon glyphicon-flag" aria-hidden="true"></i>座右铭</h4>
+								<span></span>
+							</div>
+							<p>只要你确信自己正确就去做。做了有人说不好，不做还是有人说不好，不要逃避批判。</p>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+			</div>
+			<div class="services" id="diary">
+				<div class="container">
+					<h3 class="tittle"><span>[</span> Diary <span>]</span></h3>
+						<p class="about-text1">
+							此处要写介绍了，摘自百度百科:日记的内容，来源于我们对生活的观察，因此，可以记事，可以写人，可以状物，可以写景，也可以记述活动，凡是自己在一天中做过的，或看到的，或听到的，或想到的，都可以是日记的内容。<br>
+							总的来说:就是想写什么写什么!!!
+						</p>
+					<div class="service-grids">
+						<div class="col-md-4 ser-grid">
+							<div class="ser-left">
+								<i class="glyphicon glyphicon-globe" aria-hidden="true"></i>
+							</div>
+							<div class="ser-right">
+								<h4>记人</h4>
+								<p>这次的培训让我结交了一堆小伙伴，他们是：肖海燕、唐玉峰、李仁君、叶东、付翔、缪冈霖、张涛、江源山，希望通过这几个月让我们互相更了解对方</p>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+						<div class="col-md-4 ser-grid">
+							<div class="ser-left">
+								<i class="glyphicon glyphicon-signal" aria-hidden="true"></i>
+							</div>
+							<div class="ser-right">
+								<h4>记事</h4>
+								<p>为期四个月的培训已经开始了，我要开始努力奋斗了，加油！</p>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+						<div class="col-md-4 ser-grid">
+							<div class="ser-left">
+								<i class="glyphicon glyphicon-cog" aria-hidden="true"></i>
+							</div>
+							<div class="ser-right">
+								<h4>状物</h4>
+								<p>这里我要说说成都的伙食，目前我还没找到自己喜欢吃的，一切都有待发掘。</p>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<div class="service-grids">
+						<div class="col-md-4 ser-grid">
+							<div class="ser-left">
+								<i class="glyphicon glyphicon-heart" aria-hidden="true"></i>
+							</div>
+							<div class="ser-right">
+								<h4>写景</h4>
+								<p>此处我要说的是我坐火车来成都路上所看到的，一路上我见到的景色是一座又一座的山，直接导致的结果是手机长时间的没信号。</p>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+						<div class="col-md-4 ser-grid">
+							<div class="ser-left">
+								<i class="glyphicon glyphicon-cloud" aria-hidden="true"></i>
+							</div>
+							<div class="ser-right">
+								<h4>活动</h4>
+								<p>最近关注学校消息的时候，有好多同学的班级都在组织拍毕业照了，唉~又到一年毕业季啊！转眼就轮到我了</p>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+						<div class="col-md-4 ser-grid">
+							<div class="ser-left">
+								<i class="glyphicon glyphicon-flag" aria-hidden="true"></i>
+							</div>
+							<div class="ser-right">
+								<h4>天气</h4>
+								<p>这两天成都晴了，它终于晴了，我都多久没见过太阳了啊!</p>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+			</div>
+				<div class="gallery" id="photo">
+					<div class="container">
+						<h2 class="tittle">Our Photo</h2>
+						<div class="gallery-grids">
+							<div class="col-md-4 gal-left">
+								<div class="content-grid-effect slow-zoom vertical text-center">
+									<a href="images/1.jpg" class="b-link-stripe b-animate-go  swipebox">
+										<div class="img-box">
+											<img src="images/1.jpg" alt="image" class="img-responsive zoom-img">	
+										</div>
+										<div class="info-box">
+											<div class="info-content">
+												<h4>军训照</h4>
+												<span class="separator"></span>
+												<p>刚来学校的我，军训可让我又晒黑了不少</p>
+											</div>
+										</div>
+									</a>
+								</div>
+							</div>
+							<div class="col-md-4 gal-left">
+								<div class="content-grid-effect slow-zoom vertical text-center">
+									<a href="images/2.jpg" class="b-link-stripe b-animate-go  swipebox">
+										<div class="img-box">
+											<img src="images/2.jpg" alt="image" class="img-responsive zoom-img">	
+										</div>
+										<div class="info-box">
+											<div class="info-content">
+												<h4>四人大富翁</h4>
+												<span class="separator"></span>
+												<p>第一次寝室集体小游戏，我们竟然兴致勃勃的玩了两个多小时！</p>
+											</div>
+										</div>
+									</a>
+								</div>
+							</div>
+							<div class="col-md-4 gal-left">
+								<div class="content-grid-effect slow-zoom vertical text-center">
+									<a href="images/3.jpg" class="b-link-stripe b-animate-go  swipebox">
+										<div class="img-box">
+											<img src="images/3.jpg" alt="image" class="img-responsive zoom-img">	
+										</div>
+										<div class="info-box">
+											<div class="info-content">
+												<h4>现场版三国杀</h4>
+												<span class="separator"></span>
+												<p>都别走，再来与我大战三百回合！(要是让她们看到这照片的话，我就死定了)</p>
+											</div>
+										</div>
+									</a>
+								</div>
+							</div>
+							<div class="col-md-4 gal-left gal_mar">
+								<div class="content-grid-effect slow-zoom vertical text-center">
+									<a href="images/4.jpg" class="b-link-stripe b-animate-go  swipebox">
+										<div class="img-box">
+											<img src="images/4.jpg" alt="image" class="img-responsive zoom-img">	
+										</div>
+										<div class="info-box">
+											<div class="info-content">
+												<h4>毕业照第一波</h4>
+												<span class="separator"></span>
+												<p>室友与她们班的毕业照，民国时期校园风，等我回来再拍一次</p>
+											</div>
+										</div>
+									</a>
+								</div>
+							</div>
+							<div class="col-md-4 gal-left gal_mar">
+								<div class="content-grid-effect slow-zoom vertical text-center">
+									<a href="images/5.jpg" class="b-link-stripe b-animate-go  swipebox">
+										<div class="img-box">
+											<img src="images/5.jpg" alt="image" class="img-responsive zoom-img">	
+										</div>
+										<div class="info-box">
+											<div class="info-content">
+												<h4>毕业照第二波</h4>
+												<span class="separator"></span>
+												<p>这波比较正经，我还是比较喜欢这套服装</p>
+											</div>
+										</div>
+									</a>
+								</div>
+							</div>
+							<div class="col-md-4 gal-left gal_mar">
+								<div class="content-grid-effect slow-zoom vertical text-center">
+									<a href="images/6.jpg" class="b-link-stripe b-animate-go  swipebox">
+										<div class="img-box">
+											<img src="images/6.jpg" alt="image" class="img-responsive zoom-img">	
+										</div>
+										<div class="info-box">
+											<div class="info-content">
+												<h4>生活记录</h4>
+												<span class="separator"></span>
+												<p>当时的场景是：她们在背单词，非让我给他们拍一张刻苦的样子</p>
+											</div>
+										</div>
+									</a>
+								</div>
+							</div>
+							<div class="col-md-4 gal-left gal_mar">
+								<div class="content-grid-effect slow-zoom vertical text-center">
+									<a href="images/7.jpg" class="b-link-stripe b-animate-go  swipebox">
+										<div class="img-box">
+											<img src="images/7.jpg" alt="image" class="img-responsive zoom-img">	
+										</div>
+										<div class="info-box">
+											<div class="info-content">
+												<h4>看电影</h4>
+												<span class="separator"></span>
+												<p>她在搜鬼片，准备一起看  嘻嘻</p>
+											</div>
+										</div>
+									</a>
+								</div>
+							</div>
+							<div class="col-md-4 gal-left gal_mar">
+								<div class="content-grid-effect slow-zoom vertical text-center">
+									<a href="images/8.jpg" class="b-link-stripe b-animate-go  swipebox">
+										<div class="img-box">
+											<img src="images/8.jpg" alt="image" class="img-responsive zoom-img">	
+										</div>
+										<div class="info-box">
+											<div class="info-content">
+												<h4>输惨了</h4>
+												<span class="separator"></span>
+												<p>玩牌，输了的贴纸条，可以看出我输得有多惨吧</p>
+											</div>
+										</div>
+									</a>
+								</div>
+							</div>
+							<div class="col-md-4 gal-left gal_mar">
+								<div class="content-grid-effect slow-zoom vertical text-center">
+									<a href="images/9.jpg" class="b-link-stripe b-animate-go  swipebox">
+										<div class="img-box">
+											<img src="images/9.jpg" alt="image" class="img-responsive zoom-img">	
+										</div>
+										<div class="info-box">
+											<div class="info-content">
+												<h4>呃。。</h4>
+												<span class="separator"></span>
+												<p>我是被强迫的！ 我是被强迫的！ 我是被强迫的！</p>
+											</div>
+										</div>
+									</a>
+								</div>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+					</div>
+				</div>
+			<div class="count-agileits">
+				<div class="container">
+					<h3 class="tittle1"><span>[</span> Counter <span>]</span></h3>
+					<div class="count-grids">
+						<div class="col-md-3 count-grid">
+						<i class="glyphicon glyphicon-filter" aria-hidden="true"></i>
+							<div class="count hvr-bounce-to-bottom">
+								<div class='numscroller numscroller-big-bottom' data-slno='1' data-min='0' data-max='105206' data-delay='.5' data-increment="100">105206</div>
+									<span></span>
+									<h5>Access number</h5>
+							</div>
+						</div>
+						<div class="col-md-3 count-grid">
+						<i class="glyphicon glyphicon-hand-left" aria-hidden="true"></i>
+							<div class="count hvr-bounce-to-bottom">
+								<div class='numscroller numscroller-big-bottom' data-slno='1' data-min='0' data-max='372' data-delay='.5' data-increment="100">372</div>
+									<span></span>
+									<h5>Thumb up</h5>
+							</div>
+						</div>
+						<div class="col-md-3 count-grid">
+						<i class="glyphicon glyphicon-time" aria-hidden="true"></i>
+							<div class="count hvr-bounce-to-bottom">
+								<div class='numscroller numscroller-big-bottom' data-slno='1' data-min='0' data-max='10520' data-delay='.5' data-increment="100">10520</div>
+									<span></span>
+									<h5>Online hours</h5>
+								</div>
+						</div>
+						<div class="col-md-3 count-grid">
+						<i class="glyphicon glyphicon-user" aria-hidden="true"></i>
+							<div class="count hvr-bounce-to-bottom">
+								<div class='numscroller numscroller-big-bottom' data-slno='1' data-min='0' data-max='256' data-delay='.5' data-increment="100">256</div>
+									<span></span>
+									<h5>Message number</h5>
+							</div>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+			</div>
+			<div class="team-w3l" id="dormitory">
+				<div class="container">
+					<h3 class="tittle"><span>[</span> Dormitory <span>]</span></h3>
+						<p class="about-text">宿舍四人组</p
+					<div class="team-grids">
+						<div class="slider">
+							<div class="callbacks_container">
+								<ul class="rslides" id="slider">
+									<li>	 
+										<div class="caption">
+											<div class="col-md-3 cap-left">
+												<img src="images/t1.jpg" class="img-responsive" alt=""/>
+												<div class="cap">
+													<h4>夏雨</h4>
+													<p>就是我本人啦</p>
+													<div class="social-icons">
+														<a href="#"><i class="icon"></i></a>
+														<a href="#"><i class="icon1"></i></a>
+														<a href="#"><i class="icon2"></i></a>
+														<a href="#"><i class="icon3"></i></a>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-3 cap-left">
+												<img src="images/t2.jpg" class="img-responsive" alt=""/>
+												<div class="cap">
+													<h4>邱丹丹</h4>
+													<p>就是把我托起来的那位，也是我们寝室最早脱单的</p>
+													<div class="social-icons">
+														<a href="#"><i class="icon"></i></a>
+														<a href="#"><i class="icon1"></i></a>
+														<a href="#"><i class="icon2"></i></a>
+														<a href="#"><i class="icon3"></i></a>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-3 cap-left">
+												<img src="images/5.jpg" class="img-responsive" alt=""/>
+												<div class="cap">
+													<h4>范柳</h4>
+													<p>(PS:图片中左边那位)性子和我比较像的一个，四人中和平时我呆的时间最长PS:应该是因为我们都没男朋友吧</p>
+													<div class="social-icons">
+														<a href="#"><i class="icon"></i></a>
+														<a href="#"><i class="icon1"></i></a>
+														<a href="#"><i class="icon2"></i></a>
+														<a href="#"><i class="icon3"></i></a>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-3 cap-left">
+												<img src="images/t4.jpg" class="img-responsive" alt=""/>
+												<div class="cap">
+													<h4>孙加欢</h4>
+													<p>我们班的另一个女生，被我们班的男生追走了，从此我就当上了电灯泡 此处附上她和他男朋友合照</p>
+													<div class="social-icons">
+														<a href="#"><i class="icon"></i></a>
+														<a href="#"><i class="icon1"></i></a>
+														<a href="#"><i class="icon2"></i></a>
+														<a href="#"><i class="icon3"></i></a>
+													</div>
+												</div>
+											</div>
+											<div class="clearfix"></div>
+										</div>
+									</li>	 
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="journal-w3l" id="news">
+				<div class="container">
+					<h3 class="tittle"><span>[</span> News <span>]</span></h3>
+					<p class="about-text">要多关注社会时事，俗话说得好：秀才不出门们，便知天下事</p>
+					<div class="journal-grids">
+						<div class="col-md-4 journal-grid">
+							<a href="#" class="new-gri" data-toggle="modal" data-target="#myModal1"><img src="images/J.jpg" class="img-responsive" alt="" /></a>
+							<div class="jou-text">
+								<div class="jou-left">
+									<h5>18 <span>Oct</span></h5>
+								</div>
+								<div class="jou-right">
+									<h4><a href="http://news.sina.com.cn/c/nd/2016-10-18/doc-ifxwvpar8371561.shtml" class="new-gri" data-toggle="modal" data-target="#myModal1">王毅：任何人任何势力都不可阻挡中菲重建友好</a></h4>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+							<p class="jour-text">外交部长王毅在北京对记者表示，中国与菲律宾隔海相望，两国人民之间有着长久友好交往。</p>
+						</div>
+						<div class="col-md-4 journal-grid">
+							<a href="#" class="new-gri" data-toggle="modal" data-target="#myModal1"><img src="images/J1.jpg" class="img-responsive" alt="" /></a>
+							<div class="jou-text">
+								<div class="jou-left">
+									<h5>16 <span>May</span></h5>
+								</div>
+								<div class="jou-right">
+									<h4><a href="http://mt.sohu.com/20160516/n449756973.shtml" class="new-gri" data-toggle="modal" data-target="#myModal1">月影谈:写给想成为前端工程师的同学们</a></h4>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+							<p class="jour-text">编者按：本文由360副总监、奇舞团负责人月影编写，文中解释了什么是前端工程师，前端工程师的发展之路、前景、需要的知识体系、以前前端工程师的学习与成长等内容，在最后，还提到了关于在校大学生学习前端的一些看法。</p>
+						</div>
+						<div class="col-md-4 journal-grid">
+							<a href="#" class="new-gri" data-toggle="modal" data-target="#myModal1"><img src="images/J2.jpg" class="img-responsive" alt=""/></a>
+							<div class="jou-text">
+								<div class="jou-left">
+									<h5>18 <span>Oct</span></h5>
+								</div>
+								<div class="jou-right">
+									<h4><a href="http://taiwan.huanqiu.com/article/2016-10/9568902.html" class="new-gri" data-toggle="modal" data-target="#myModal1">台独媒体对“神舟十一”的弱智报道，台湾网友都痛骂丢脸</a></h4>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+							<p class="jour-text">今天，一则来自台湾的消息让咱们大陆众多网民都惊呆了，甚至连不少台湾网民都和大陆网民一道表示：“我的智商受到了严重的侮辱”。</p>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	<div class="footer" id="contact">
+		<div class="container">
+			<div class="footer-top">
+				<div class="col-md-3 footer-left">
+					<h4>Address</h4>
+						<address>
+							湖北武汉<br>
+							<abbr title="Phone">P :</abbr> 15172405058
+						</address>
+				</div>
+				<div class="col-md-6 footer-middle">
+					<h4>Contact</h4>
+					<form action="Message.jsp" method="post" name="form">
+						<div class="ft-lt">
+							<input type="text" name="name" value="姓名" placeholder="" onfocus="this.value='';" onblur="if (this.value == '') {this.value = 'Name';}">	
+							<input type="text" name="zhuti" value="主题" placeholder="" onfocus="this.value='';" onblur="if (this.value == '') {this.value = 'zhuti';}">				
+						</div>
+						<div class="ft-rgt">
+							<textarea name="messages" WRAP="physical" placeholder="" onfocus="this.value='';" onblur="if (this.value == '') {this.value = 'Message';}">留言内容</textarea>	
+							<input type="submit" value="Submit" name="submit"> 
+						</div>
+					</form>
+					<FORM action="Showmessage.jsp" method="post" name="form1">
+						<Input type="submit" value="查看留言板" name="look"> 
+					</FORM>
+				</div>
+				<div class="col-md-3 footer-left">
+					<h4>Follow Us</h4>
+						<div class="social-icons">
+							<a href="#"><i class="icon"></i></a>
+							<a href="#"><i class="icon1"></i></a>
+							<a href="#"><i class="icon2"></i></a>
+						</div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="footer-text">
+				<p>版权归夏雨所有@</p>
+			</div>
+		</div>
+	</div>
+			<script type="text/javascript">
+				$(document).ready(function() {
+					$().UItoTop({ easingType: 'easeOutQuart' });
+				});
+			</script>
+			<a href="#" id="home" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+	</body>
+</html>
